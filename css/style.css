@@ -1,0 +1,213 @@
+
+
+/* media query for responsiveness
+@media (max-width: 767px) {}
+@media (min-width: 768px) {}
+@media (min-width: 1200px) {}
+*/
+
+
+
+.navbar-default{
+    background-color: #F0F0EF;
+    border-color: #F0F0EF;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: bolder;
+}
+
+.navbar-default .navbar-nav li a {
+    color: black;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: bolder;
+}
+
+.divOne{
+    background-image: url(../images/xperiaFirstSection1.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    min-height: 750px;
+    background-repeat: no-repeat;
+    padding-bottom: 25px;
+}
+.contentFirst{
+    margin-top: 400px;
+}
+.website{
+    color: black;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.development{
+    color: #34495e;
+}
+
+.divTwo{
+    background-image: url(../images/xperiaSecondSection.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    min-height: 850px;
+    background-repeat: no-repeat;
+    padding-bottom: 25px;
+}
+
+.whiteP{
+    font-size: 15px;
+    color: white;
+}
+
+.contentSecond{
+    margin-top: 25px;
+    position: relative;
+}
+
+.smallHeader{
+    font-size: 22px;
+    color: black;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.mediumHeader{
+    font-size: 30px;
+    color: black;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin-top: 7%;
+}
+
+.serviceContent{
+    margin-top: 12%;
+}
+
+.blackP{
+    margin-top: 7%;
+    color: black;
+    font-size: 15px;
+}
+
+.marginDefaultTop{
+    margin-top: 5%;
+}
+
+.marginDefaultTopContent{
+    margin-top: 20%;
+}
+
+.divThree{
+    min-height: 650px;
+    padding-bottom: 25px;
+}
+
+.divFour{
+    background-image: url(../images/footer.png);
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    padding-bottom: 25px;
+    background-position: center;
+}
+
+.smallHeaderWhite{
+    font-size: 22px;
+    color: lightgray;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.whiteG{
+    font-size: 15px;
+    color: grey;
+}
+
+.sIf{
+    padding: 10px;
+    color: #3b5998;
+}
+
+.sIf:hover{
+    padding: 10px;
+    color: #0052ff;
+}
+
+.sIt{
+    padding: 10px;
+    color: #95c3ff;
+}
+
+.sIt:hover{
+    padding: 10px;
+    color: #c1dcff;
+}
+
+.sIp{
+    padding: 10px;
+    color: #C92228;
+}
+
+.sIp:hover{
+    padding: 10px;
+    color: #ed555a;
+}
+
+.sIi{
+    padding: 10px;
+    color: #ded1c1;
+}
+
+.sIi:hover{
+    padding: 10px;
+    color: #fff6eb;
+}
+
+.pc{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+@media screen and (max-width:1200px) {
+    .website{
+        color: black;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 70px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .divOne{
+        background-image: url(../images/phnBckgrndS1.png);
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .divTwo{
+        background-image: url(../images/phnBckgrndS2.png);
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .contentFirst {
+        margin-top: 190px;
+    }
+    .website {
+        color: black;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 35px;
+        font-weight: bold;
+    }
+}
+
